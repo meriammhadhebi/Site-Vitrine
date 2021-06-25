@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AROUS GHARSALLAH</title>
+  <link rel="stylesheet" type="text/css" href="footer.css"> 
+  <link rel="stylesheet" type="text/css" href="menu.css"> 
+  <link rel="stylesheet" type="text/css" href="css/es-styles.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+header {
+	top: 30px;
+	position: relative;
+	left: 470px;
+  padding: 0.5rem 0 5rem;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-flex;
+}
+
+a {
+  position: relative;
+  padding: 1rem 0 0.5rem;
+  margin: 0 1.5rem;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%) scaleX(0);
+          transform: translateX(-50%) scaleX(0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition: transform 250ms, -webkit-transform 250ms;
+}
+a:hover::after {
+  -webkit-transform: translateX(-50%) scaleX(1);
+          transform: translateX(-50%) scaleX(1);
+}
+.dropbtn {
+  background-color:white;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  top: 30px;
+  position: absolute;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+
+.dropdown:hover .dropdown-content {display: block; position: absolute;top: 25px;}
+
+.dropdown:hover .dropbtn {background-color: lightgrey;}
+
+	</style>
+</head>
+<body class="main-contain">
+      <div class="container">
+    
+    <header style="position: relative;top: -130px">
+
+        <nav>
+		<img src="../data/image/logo.png" style="position: relative;width: 200px;height: 200px; left:-450px;top:120px">
+
+            <ul style="position: absolute;left: -90px;">
+
+                 <li>
+                    <a href="home.html">HOME</a>
+                </li>
+
+                <li>
+                    <a href="automne-hiver-2017-2018.html">COLLECTION 2018/2019</a>
+                </li>
+
+               
+
+                 
+                 	<li><div class="dropdown">
+                 <a href="#">COLLECTION MARIAGE</a>
+  <div class="dropdown-content">
+    <a href="#">Robe style 1</a>
+    <a href="#">Robe style 2</a>
+      </div>
+</div>
+                </li>
+                  	<li><div class="dropdown">
+                 <a href="#">COLLECTION ARBI</a>
+  <div class="dropdown-content">
+    <a href="#">Robe style 1</a>
+    <a href="#">Robe style 2</a>
+      </div>
+</div>
+                </li>
+
+                <li>
+                    <a href="notre boutique.html">NOTRE BOUTIQUE</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    
+</div>
+    <div class="section-title" style="position: absolute;left: 500px;top: 170px">
+      <h3>Arous Gharsallah</h3>
+        <h2 style="font-size: 30px" class="sub-title">NOTRE BOUTIQUE</h2>
+    </div>
+<div>
+	<div>
+		
+	</div>
+	<div>
+		<img src="../data/image/position.png" style="position: absolute; width: 600px;height: 500px;top: 480px;left: 150px;">
+	</div>
+	<div>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=arous%20gharsallah&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">bitgeeks.net</a></div>
+
+<style>.mapouter{position:relative;text-align:right;height:500px;width:400px;top:188px;position: relative;left: 800px}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:400px;}</style></div>
+</div>        
+
+
+</body>
+       <footer id="site-footer" class="site-footer" style="position: relative;height: 70px ;top: 200px;background-color: rgb(245, 245, 245);">
+    <div class="s-m" style="position: relative;left: 35px;top: 10px">
+      <a style="color: rgb(201, 201, 201);" class="fa fa-facebook" href="https://www.facebook.com/ArousGharsallah/"></a>
+      <a style="color: rgb(201, 201, 201);" class="fa fa-twitter" href="#"></a>
+      <a style="color: rgb(201, 201, 201);" class="fa fa-google-plus" href="#"></a>
+      <a style="color: rgb(201, 201, 201);" class="fa fa-youtube" href="#"></a>
+      <a style="color: rgb(201, 201, 201);" class="fa fa-linkedin" href="#"></a>
+    </div>
+</footer>
+
+</html>
